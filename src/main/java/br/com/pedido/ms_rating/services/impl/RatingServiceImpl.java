@@ -46,5 +46,5 @@ public class RatingServiceImpl implements RatingService {
         ratingDTO.setEvaluationDate(captureDate());
         ratingRepository.save(ratingMapper.ratingDtoToRating(ratingDTO));
     }
-    
+
 }
